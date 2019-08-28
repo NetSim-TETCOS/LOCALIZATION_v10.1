@@ -1,0 +1,123 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  UnslottedCSMACA.c
+  Superframe.c
+  SlottedCSMACA.c
+  SINRCalculation.c
+  Sensor.c
+  LocateBackoffBoundary.c
+  Localisation.c
+c:\users\upal\desktop\projects_v10.1.14\done\localisation_in_wsn\64bit\code\zigbee\localisation.c(65): warning C4018: '<': signed/unsigned mismatch
+c:\users\upal\desktop\projects_v10.1.14\done\localisation_in_wsn\64bit\code\zigbee\localisation.c(99): warning C4018: '<': signed/unsigned mismatch
+c:\users\upal\desktop\projects_v10.1.14\done\localisation_in_wsn\64bit\code\zigbee\localisation.c(113): warning C4047: '=': 'FILE *' differs in levels of indirection from 'int'
+c:\users\upal\desktop\projects_v10.1.14\done\localisation_in_wsn\64bit\code\zigbee\localisation.c(126): warning C4018: '<': signed/unsigned mismatch
+c:\users\upal\desktop\projects_v10.1.14\done\localisation_in_wsn\64bit\code\zigbee\localisation.c(139): warning C4047: '=': 'SENSOR_DETAILS' differs in levels of indirection from 'SENSOR_DETAILS *'
+c:\users\upal\desktop\projects_v10.1.14\done\localisation_in_wsn\64bit\code\zigbee\localisation.c(140): warning C4018: '<': signed/unsigned mismatch
+c:\users\upal\desktop\projects_v10.1.14\done\localisation_in_wsn\64bit\code\zigbee\localisation.c(175): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\upal\desktop\projects_v10.1.14\done\localisation_in_wsn\64bit\code\zigbee\localisation.c(186): warning C4133: '=': incompatible types - from 'SENSOR_DETAILS *' to 'ANCHOR_DETAILS *'
+c:\users\upal\desktop\projects_v10.1.14\done\localisation_in_wsn\64bit\code\zigbee\localisation.c(191): warning C4047: '=': 'ANCHOR_DETAILS' differs in levels of indirection from 'SENSOR_DETAILS *'
+c:\users\upal\desktop\projects_v10.1.14\done\localisation_in_wsn\64bit\code\zigbee\localisation.c(192): warning C4047: '=': 'ANCHOR_DETAILS' differs in levels of indirection from 'ANCHOR_DETAILS *'
+c:\users\upal\desktop\projects_v10.1.14\done\localisation_in_wsn\64bit\code\zigbee\localisation.c(194): warning C4047: 'function': 'int *' differs in levels of indirection from 'int'
+c:\users\upal\desktop\projects_v10.1.14\done\localisation_in_wsn\64bit\code\zigbee\localisation.c(194): warning C4024: 'get_device_id': different types for formal and actual parameter 1
+c:\users\upal\desktop\projects_v10.1.14\done\localisation_in_wsn\64bit\code\zigbee\localisation.c(230): warning C4018: '<': signed/unsigned mismatch
+c:\users\upal\desktop\projects_v10.1.14\done\localisation_in_wsn\64bit\code\zigbee\localisation.c(241): warning C4028: formal parameter 1 different from declaration
+c:\users\upal\desktop\projects_v10.1.14\done\localisation_in_wsn\64bit\code\zigbee\localisation.c(243): warning C4018: '<': signed/unsigned mismatch
+  ErrorPathLoss.c
+  ChangeRadioState.c
+  CCA.c
+  BERCalculation.c
+  BackoffCalculation.c
+  AgentModel.c
+  802_15_4.c
+c:\users\upal\desktop\projects_v10.1.14\done\localisation_in_wsn\64bit\code\zigbee\802_15_4.c(707): warning C4013: 'fn_NetSim_localisation' undefined; assuming extern returning int
+c:\users\upal\desktop\projects_v10.1.14\done\localisation_in_wsn\64bit\code\zigbee\802_15_4.c(785): warning C4013: 'is_emulated_packet' undefined; assuming extern returning int
+  Generating Code...
+c:\users\upal\desktop\projects_v10.1.14\done\localisation_in_wsn\64bit\code\zigbee\localisation.c(250): warning C4715: 'get_device_id': not all control paths return a value
+c:\users\upal\desktop\projects_v10.1.14\done\localisation_in_wsn\64bit\code\zigbee\localisation.c(280): warning C4716: 'fn_NetSim_trilateration_method': must return a value
+c:\users\upal\desktop\projects_v10.1.14\done\localisation_in_wsn\64bit\code\zigbee\localisation.c(238): warning C4715: 'fn_NetSim_localisation': not all control paths return a value
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(C:\Users\UPAL\Desktop\Projects_v10.1.14\Done\LOCALISATION_IN_WSN\64bit\Code\ZigBee\../Dll\ZigBee.dll) does not match the Linker's OutputFile property value (C:\Users\UPAL\Desktop\Projects_v10.1.14\Done\LOCALISATION_IN_WSN\64bit\Code\Dll\libZigBee.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(ZigBee) does not match the Linker's OutputFile property value (libZigBee). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+802_15_4.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     Creating library ../Dll\ZigBee.lib and object ../Dll\ZigBee.exp
+SlottedCSMACA.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+Superframe.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+UnslottedCSMACA.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+802_15_4.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+AgentModel.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+Localisation.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+Sensor.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+802_15_4.obj : error LNK2019: unresolved external symbol _propagation_get_received_power_dbm referenced in function _fn_NetSim_Zigbee_Run
+Localisation.obj : error LNK2001: unresolved external symbol _propagation_get_received_power_dbm
+802_15_4.obj : error LNK2019: unresolved external symbol _fn_NetSim_Stack_GetWirelessInterface referenced in function _fn_NetSim_Zigbee_Run
+802_15_4.obj : error LNK2019: unresolved external symbol _fn_NetSim_Stack_GetConnectedDevice referenced in function _fn_NetSim_Zigbee_Run
+Superframe.obj : error LNK2001: unresolved external symbol _fn_NetSim_Stack_GetConnectedDevice
+802_15_4.obj : error LNK2019: unresolved external symbol _fn_NetSim_Stack_GetNWProtocol referenced in function _fn_NetSim_Zigbee_Run
+802_15_4.obj : error LNK2019: unresolved external symbol _fn_NetSim_Metrics_Add referenced in function _fn_NetSim_Zigbee_Run
+802_15_4.obj : error LNK2019: unresolved external symbol _fn_NetSim_Packet_CreatePacket_dbg referenced in function _fn_NetSim_Zigbee_Run
+Sensor.obj : error LNK2001: unresolved external symbol _fn_NetSim_Packet_CreatePacket_dbg
+Superframe.obj : error LNK2001: unresolved external symbol _fn_NetSim_Packet_CreatePacket_dbg
+802_15_4.obj : error LNK2019: unresolved external symbol _fn_NetSim_Packet_FreePacket_dbg referenced in function _fn_NetSim_ZigBee_SinkNodeApp
+SlottedCSMACA.obj : error LNK2001: unresolved external symbol _fn_NetSim_Packet_FreePacket_dbg
+UnslottedCSMACA.obj : error LNK2001: unresolved external symbol _fn_NetSim_Packet_FreePacket_dbg
+802_15_4.obj : error LNK2019: unresolved external symbol _fn_NetSim_GetBufferStatus referenced in function _fn_NetSim_Zigbee_Run
+SlottedCSMACA.obj : error LNK2001: unresolved external symbol _fn_NetSim_GetBufferStatus
+UnslottedCSMACA.obj : error LNK2001: unresolved external symbol _fn_NetSim_GetBufferStatus
+802_15_4.obj : error LNK2019: unresolved external symbol _fn_NetSim_Packet_GetPacketFromBuffer referenced in function _fn_NetSim_Zigbee_Run
+SlottedCSMACA.obj : error LNK2001: unresolved external symbol _fn_NetSim_Packet_GetPacketFromBuffer
+UnslottedCSMACA.obj : error LNK2001: unresolved external symbol _fn_NetSim_Packet_GetPacketFromBuffer
+802_15_4.obj : error LNK2019: unresolved external symbol _fn_NetSim_Packet_CopyPacket_dbg referenced in function _fn_NetSim_Zigbee_Run
+SlottedCSMACA.obj : error LNK2001: unresolved external symbol _fn_NetSim_Packet_CopyPacket_dbg
+UnslottedCSMACA.obj : error LNK2001: unresolved external symbol _fn_NetSim_Packet_CopyPacket_dbg
+802_15_4.obj : error LNK2019: unresolved external symbol _fn_NetSim_WritePacketTrace_dbg referenced in function _fn_NetSim_Zigbee_Run
+802_15_4.obj : error LNK2019: unresolved external symbol _fnGetPacketSize referenced in function _fn_NetSim_Zigbee_Run
+802_15_4.obj : error LNK2019: unresolved external symbol _add_dest_to_packet referenced in function _fn_NetSim_Zigbee_Run
+Sensor.obj : error LNK2001: unresolved external symbol _add_dest_to_packet
+Superframe.obj : error LNK2001: unresolved external symbol _add_dest_to_packet
+802_15_4.obj : error LNK2019: unresolved external symbol _ReportError referenced in function _fn_NetSim_Zigbee_Run
+UnslottedCSMACA.obj : error LNK2001: unresolved external symbol _fnAddEvent_F
+802_15_4.obj : error LNK2001: unresolved external symbol _fnAddEvent_F
+Sensor.obj : error LNK2001: unresolved external symbol _fnAddEvent_F
+SlottedCSMACA.obj : error LNK2001: unresolved external symbol _fnAddEvent_F
+Superframe.obj : error LNK2001: unresolved external symbol _fnAddEvent_F
+802_15_4.obj : error LNK2019: unresolved external symbol _fn_NetSim_Zigbee_Configure_F referenced in function _fn_NetSim_Zigbee_Configure
+802_15_4.obj : error LNK2019: unresolved external symbol _fn_NetSim_Zigbee_Init_F referenced in function _fn_NetSim_Zigbee_Init
+802_15_4.obj : error LNK2019: unresolved external symbol _fn_NetSim_Zigbee_Finish_F referenced in function _fn_NetSim_Zigbee_Finish
+802_15_4.obj : error LNK2019: unresolved external symbol _fn_NetSim_Zigbee_Trace_F referenced in function _fn_NetSim_Zigbee_Trace
+802_15_4.obj : error LNK2019: unresolved external symbol _fn_NetSim_Zigbee_CopyPacket_F referenced in function _fn_NetSim_Zigbee_CopyPacket
+802_15_4.obj : error LNK2019: unresolved external symbol _fn_NetSim_Zigbee_Metrics_F referenced in function _fn_NetSim_Zigbee_Metrics
+802_15_4.obj : error LNK2019: unresolved external symbol _fn_NetSim_Zigbee_FreePacket_F referenced in function _fn_NetSim_Zigbee_FreePacket
+802_15_4.obj : error LNK2019: unresolved external symbol _is_emulated_packet referenced in function _fn_NetSim_ZigBee_SinkNodeApp
+Sensor.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+SlottedCSMACA.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+Superframe.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+UnslottedCSMACA.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+802_15_4.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+AgentModel.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+ChangeRadioState.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+Localisation.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+802_15_4.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+Localisation.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+802_15_4.obj : error LNK2001: unresolved external symbol __imp__ldEventTime
+ChangeRadioState.obj : error LNK2001: unresolved external symbol __imp__ldEventTime
+802_15_4.obj : error LNK2001: unresolved external symbol __imp__pszAppPath
+802_15_4.obj : error LNK2001: unresolved external symbol __imp__pszIOPath
+AgentModel.obj : error LNK2019: unresolved external symbol _fn_NetSim_Anim_MoveNode referenced in function _fn_NetSim_RandomWalk
+BackoffCalculation.obj : error LNK2019: unresolved external symbol _fn_NetSim_Utilities_GenerateRandomNo referenced in function _fn_NetSim_Zigbee_BackoffTimeCalculation
+Localisation.obj : error LNK2019: unresolved external symbol _fnpFreeMemory_dbg referenced in function _fn_NetSim_localisation
+Sensor.obj : error LNK2001: unresolved external symbol _fnpFreeMemory_dbg
+Localisation.obj : error LNK2019: unresolved external symbol _fn_NetSim_Utilities_CalculateDistance referenced in function _fn_NetSim_localisation
+Sensor.obj : error LNK2019: unresolved external symbol _IP_COPY referenced in function _fn_NetSim_Zigbee_SensorEvent
+Sensor.obj : error LNK2019: unresolved external symbol _list_alloc_dbg referenced in function _fn_NetSim_Zigbee_SensorEvent
+Sensor.obj : error LNK2019: unresolved external symbol _list_add_last referenced in function _fn_NetSim_Zigbee_SensorEvent
+Sensor.obj : error LNK2019: unresolved external symbol _fn_NetSim_Stack_GetFirstIPAddressAsId referenced in function _fn_NetSim_Zigbee_SensorEvent
+Superframe.obj : error LNK2001: unresolved external symbol _fn_NetSim_Stack_GetFirstIPAddressAsId
+Sensor.obj : error LNK2019: unresolved external symbol _fn_NetSim_Packet_AddPacketToList_dbg referenced in function _fn_NetSim_Zigbee_SensorEvent
+Sensor.obj : error LNK2019: unresolved external symbol _get_first_dest_from_packet referenced in function _fn_NetSim_Zigbee_SensorEvent
+Superframe.obj : error LNK2019: unresolved external symbol _fn_NetSim_Stack_GetMacAddressFromIP referenced in function _fn_NetSim_Zigbee_SuperFrameInitialization
+Superframe.obj : error LNK2001: unresolved external symbol __imp__BROADCAST_MAC
+..\lib\NetworkStack.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+..\lib\Metrics.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+..\lib\Mobility.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+..\lib\MemoryBlock.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+..\lib\IP_Addressing.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+..\lib\PropagationModel.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+../Dll\libZigBee.dll : fatal error LNK1120: 41 unresolved externals
